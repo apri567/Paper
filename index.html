@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--  Подключаем шрифты  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--  Подключаем Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobileStyle.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light px-4 d-none d-md-flex justify-content-between">
+        <div class="nav-link navLeft p-0 d-flex align-items-center">
+            <a class="navbar-brand" href="#"><img src="img/logo2.svg" alt="logo2"></a>
+            <a class="text-dark text-decoration-none ps-3" href="#">About us</a>
+        </div>
+        <div class="nav-link navCenter p-0">
+            <a class="nav-link ms-5" href="#"><img src="img/logo1.svg" alt="logo1"></a>
+        </div>
+        <div class="nav-link navRight p-0">
+            <a class="text-dark text-decoration-none pe-3" href="#">Help</a>
+            <a class="text-dark text-decoration-none pe-4" href="#">Explore</a>
+            <a class="text-dark" href="#">
+                <button type="button" class="btn btn-dark rounded-pill px-4">Download</button>
+            </a>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex d-md-none">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-1" href="#"><img src="img/logo2.svg" alt="logo2"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active ps-1" aria-current="page" href="#">About us</a>
+                    <a class="nav-link ps-1" href="#">Help</a>
+                    <a class="nav-link ps-1" href="#">Explore</a>
+                    <a class="nav-link text-dark" href="#">
+                        <button type="button" class="btn btn-dark rounded-pill px-3 fs-6">Download</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+<!--        <div class="container m-0 mt-5">-->
+<!--            <div class="row justify-content-between align-items-center">-->
+<!--                <div class="col-6 align-items-center">-->
+<!--                    <h1 class="headerHeading w-50">Creativity at your fingertips</h1>-->
+<!--                    <p class="headerPadding">Whether you’re coloring inside the lines or thinking outside the box, it’s never been easier to get ideas on Paper</p>-->
+<!--                </div>-->
+<!--                <div class="col-6">-->
+<!--                    <img src="img/sketch1.svg" alt="sketch" width="846" height="799" class="img-fluid">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+        <div class="justify-content-between align-items-center mt-5 d-block d-md-flex">
+            <div class="ps-5 ms-md-4">
+                <h1 class="headerHeading w-50">Creativity at your fingertips</h1>
+                <p class="headerPadding">Whether you’re coloring inside the lines or thinking outside the box, it’s never been easier to get ideas on Paper</p>
+                <button type="button" class="btn btn-dark rounded-pill px-4 btn-lg">Download</button>
+                <button type="button" class="btn btn-outline-dark rounded-pill px-4 btn-lg ms-2">Explore</button>
+            </div>
+            <div class="pt-4">
+                <img src="img/sketch1.svg" alt="sketch" width="846" height="799" class="img-fluid">
+            </div>
+        </div>
+    </header>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
