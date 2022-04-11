@@ -9,3 +9,16 @@ header {
     font-size: 20px;
     width: 60%;
 }
+/* Bring Life Section */
+.bringLifeSection {
+    height: 100vh;
+    background-image: url("../img/bringLifeSection.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bringLifeHeading {
+    font-size: 52px;
+}
+.bringLifeParagraph {
+    font-size: 20px;
+}
