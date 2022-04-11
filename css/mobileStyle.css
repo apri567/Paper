@@ -2,4 +2,8 @@
     .headerHeading {
         font-size: 35px;
     }
+    /*  Effort Less Expression   */
+    .effortLessExpression {
+        background-size: contain;
+    }
 }
