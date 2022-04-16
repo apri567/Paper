@@ -27,6 +27,7 @@ header {
 }
 /* Effort Less Expression Section */
 .effortLessExpression {
+    background-color: #F5F4F0;
     height: 125vh;
     background-image: url("../img/effortLessExpression.svg");
     background-repeat: no-repeat;

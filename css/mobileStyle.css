@@ -4,6 +4,7 @@
     }
     /*  Effort Less Expression   */
     .effortLessExpression {
-        background-size: contain;
+        height: 50vh;
+        background-size: cover;
     }
 }
