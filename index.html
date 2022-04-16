@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!--  Подключаем Bootstrap  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--  Подключаем Swiper.js  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobileStyle.css">
 </head>
@@ -61,6 +63,8 @@
             </div>
         </div>
     </header>
+
+    <!--  Раздел Bring Life  -->
     <section class="bringLifeSection align-items-center">
         <div class="container h-100">
             <div class="row align-items-center h-100">
@@ -71,6 +75,8 @@
             </div>
         </div>
     </section>
+
+    <!--  Раздел Effort Less Expression  -->
     <section class="effortLessExpression">
         <div class="container">
             <div class="row justify-content-center text-center">
@@ -81,6 +87,58 @@
             </div>
         </div>
     </section>
+
+    <section class="aHelpingHand py-5 bg-dark">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="pt-5 text-white">A helping hand</h1>
+                    <p class="pt-3 text-white">Struggling to get started? The Paper Store is packed with tips and tricks from our favorite<br>creators to help you conquer your fear of the big, blank page.</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper mySwiper mt-5">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide d-block">
+                    <p class="text-white">Little Red Riding Hood<br>Joey Gao</p>
+                    <img src="img/book1.svg" alt="book">
+                    <p class="text-white-50">Revisit a familiar folk tale.</p>
+                </div>
+                <div class="swiper-slide d-block">
+                    <p class="text-white">Draw More With Less<br>Allen Lau & Iulia Soare</p>
+                    <img src="img/book2.svg" alt="book">
+                    <p class="text-white-50">Challenge yourself to draw more with less.</p>
+                </div>
+                <div class="swiper-slide d-block">
+                    <p class="text-white">Learn to Draw Portraits<br>Andrew Allen</p>
+                    <img src="img/book3.svg" alt="book">
+                    <p class="text-white-50">Trace and fill portraits from photos.</p>
+                </div>
+                <div class="swiper-slide d-block">
+                    <p class="text-white">Making Comics 101 <br>Lucy Bellwood</p>
+                    <img src="img/book4.svg" alt="book">
+                    <p class="text-white-50">Combine storytelling and design to build your own comics.</p>
+                </div>
+                <div class="swiper-slide d-block">
+                    <p class="text-white">30 Day Challenge No. 3<br>Allen Lau & Joey Gao</p>
+                    <img src="img/book5.svg" alt="book">
+                    <p class="text-white-50">Challenge yourself to create every day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 </html>
