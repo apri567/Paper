@@ -3,7 +3,7 @@ body {
 }
 header {
     width: 100%;
-    height: 100vh;
+    /*height: 120vh;*/
 }
 .headerHeading {
     font-size: 76px;
